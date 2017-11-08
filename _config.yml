@@ -1,0 +1,9 @@
+title: QIU1995NONAME 's Documents
+email: qmh1995@163.com 
+description: Documents of QIU1995NONAME
+show_downloads: true
+show_subscribe: true
+github_username: QIU1995NONAME
+baseurl: /QBlogs
+markdown: kramdown
+theme: jekyll-theme-hacker

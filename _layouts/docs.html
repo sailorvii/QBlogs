@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 {% if site.enable_mathjax %}
   {% if page.enable_mathjax %}
-    <script type="text/javascript" src="{{'MathJax/2.7.2/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML' | relative_url}}"></script>    
+    <script type="text/javascript" src="{{ 'MathJax/2.7.2/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML' | relative_url }}"></script>
   {% endif %}
 {% endif %}
 {% if site.enable_mermaid %}
   {% if page.enable_mermaid %}
-    <script type="text/javascript" src="https://unpkg.com/mermaid@{{ site.mermaid_version }}/dist/mermaid.min.js"></script>    
+    <script type="text/javascript" src="{{ 'Mermaid/' | append: site.mermaid_version | append: '/mermaid.min.js' | relative_url }}"></script>
   {% endif %}
 {% endif %}
   </head>

@@ -2,8 +2,8 @@ title: QIU1995NONAME 's Documents
 email: qmh1995@163.com 
 description: Documents of QIU1995NONAME
 github_username: QIU1995NONAME
+url: https://qiu1995noname.github.io
 baseurl: /QBlogs
-url: /QBlogs
 markdown: kramdown
 theme: jekyll-theme-hacker
 
